@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+  text-rendering: optimizeLegibility;
+  font-size: 18px;
+}
+
+.container {
+ padding-left: 0;
+ padding-right: 0;
+}
+
+body {
+  background-image: url(../images/18410.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Cairo', sans-serif;
+  overflow-x:hidden;
+  overflow-y:hidden;
+  
+}
+
+footer {
+  padding: 10px;
+  height: 50px;
+  text-align: center;
+  background-color: #DCDCDC;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+  margin-top: 131px;
+}
+
+.footer h4{
+  font-size: 20px;
+}
+footer p{
+  padding-right: 10px;
+}
+
+.card-login{
+  min-height: 350px;
+  margin: auto;
+  width: 90%;
+  margin-top: 141px;
+  border-radius: 25px;
+  padding: 20px;
+  box-shadow: -5px 4px 12px -5px;
+  background: white;
+  text-align: right;
+  margin-bottom: 314px;
+
+}
+
+.green-pic img {
+    height: 351px;
+    width: 248px;
+    float: right;
+    border-radius: 0px 15px 15px 0px;
+    background-size: cover;
+    margin-right: -20px;
+    margin-top: -21px;
+}
+
+.amana-logo img{
+ 
+    position: absolute;
+    top: 228px;
+    height: 150px;
+    width: 173px;
+    margin-right: -218px;
+}
+
+green-pic {
+    width: 5%;
+    float: right;
+    margin-left: 11px;
+
+}
+
+
+.text-employee{
+  margin-top: 36px;
+}
+
+.fa-sign-in {
+    padding: 6px;
+
+}

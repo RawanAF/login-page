@@ -1,0 +1,68 @@
+
+/* Extra large screens, TV */
+@media (min-width: 1201px) {
+    
+
+    .card-login {
+         width: 50%;
+    }
+
+}
+
+/* Desktops, large screens */
+
+@media (min-width: 1025px) and (max-width:1200px ) {
+    
+    .card-login {
+         width: 50%;
+    }
+}
+
+/* Small screens, laptops */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+   
+    .card-login {
+         width: 50%;
+    }
+    
+    footer  {
+        margin-top: 431px;
+    }
+
+   
+}
+
+/* iPads, Tablets */
+
+@media (min-width: 481px) and (max-width: 768px) {
+   
+    .card-login {
+         width: 70%;
+    }
+}
+
+/* Mobile devices */
+
+@media (min-width: 321px) and (max-width: 480px) {
+    
+
+    footer p {
+        padding-right: 10px;
+        font-size: 14px;
+    }
+   
+    .card-login {
+         width: 70%;
+    }
+
+/* Mobile devices */
+@media (max-width: 320px) {
+    
+    footer p {
+        padding-right: 2px;
+        font-size: 12px;
+    }
+
+   
+}
